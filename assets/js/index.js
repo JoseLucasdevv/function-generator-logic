@@ -1,5 +1,5 @@
-const generator = function* (pessoa) {
-  const { name, surname, age } = pessoa();
+const generator = function* (person) {
+  const { name, surname, age } = person();
 
   if (age > 18) {
     majorAge();
